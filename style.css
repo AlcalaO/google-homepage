@@ -1,5 +1,62 @@
-.top {
+body {
+    background-color: white;
+    color: #222;
+}
+
+div {
+    border: none;
+    display: block;
+}
+
+a {
+    display: inline-block;
+    opacity: .75;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    vertical-align: middle;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    border: none;
+}
+
+#top {
+    position: relative;
+    background-color: white;
+    top: 8px;
     width: 100%;
-    position: absolute;
-    top: -295px;
+}
+
+#topgrid {
+    background-color: white
+    min-width: 256px;
+    float: right;
+    display: inline;
+}
+
+.toplabel {
+    text-align: right;
+    display: inline-block;
+}
+
+.topbutton {
+    display: inline-block;
+}
+
+.gmail {
+    float: left;
+    margin-right: 16px;
+    margin-top: 10px;
+}
+
+.images {
+    float: left;
+    margin-right: 16px;
+    margin-top: 10px;
 }
