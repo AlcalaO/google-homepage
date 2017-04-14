@@ -9,7 +9,7 @@ div {
 }
 
 a {
-    display: inline-block;
+    display: inline;
     opacity: .75;
     text-decoration: none;
     color: black;
@@ -22,6 +22,10 @@ a:hover {
     text-decoration: underline;
 }
 
+.page {
+    display: block;
+}
+
 .container {
     border: none;
 }
@@ -30,6 +34,7 @@ a:hover {
     position: relative;
     background-color: white;
     top: 8px;
+    height: 100px;
     width: 100%;
 }
 
@@ -37,26 +42,62 @@ a:hover {
     background-color: white
     min-width: 256px;
     float: right;
+    top: 8px;
     display: inline;
+    vertical-align: middle;
+}
+
+.labelcontainer {
+    float: left;
 }
 
 .toplabel {
     text-align: right;
-    display: inline-block;
+    display: inline;
+    padding-right: 15px;
+}
+
+.buttoncontainer {
+    float: right;
 }
 
 .topbutton {
-    display: inline-block;
+    opacity: .75;
+    display: inline;
+    padding-right: 15px;
 }
 
-.gmail {
-    float: left;
-    margin-right: 16px;
-    margin-top: 10px;
+#google {
+    height: 32px;
+    width: 20px;
+    float: right;
+    border-radius: 50%;
+    background-color: blue;
+    color: blue;
+    padding-right: 15px;
 }
 
-.images {
-    float: left;
-    margin-right: 16px;
-    margin-top: 10px;
+#content {
+    width: 100%;
+    margin-top: 89px;
+    height: 239px;
+    display: block;
+    clear: both;
+    text-align: center;
+}
+
+#logo {
+    padding-top: 80px;
+    clear: both;
+}
+
+#googlelogo {
+    width: 272px;
+    height: 92px;
+    clear: both;
+}
+
+.sublogo {
+    position: relative;
+    left: 130px;
 }
