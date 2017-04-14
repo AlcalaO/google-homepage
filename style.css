@@ -94,10 +94,23 @@ a:hover {
 #googlelogo {
     width: 272px;
     height: 92px;
-    clear: both;
 }
 
 .sublogo {
     position: relative;
     left: 130px;
+}
+
+#searchfields {
+    clear: both;
+}
+
+.search {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#usersearch {
+    width: 320px;
+    height: 25px;
 }
