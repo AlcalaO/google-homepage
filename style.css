@@ -39,8 +39,7 @@ a:hover {
 }
 
 #topgrid {
-    background-color: white
-    min-width: 256px;
+    background-color: white min-width: 256px;
     float: right;
     top: 8px;
     display: inline;
@@ -79,7 +78,7 @@ a:hover {
 
 #content {
     width: 100%;
-    margin-top: 89px;
+    margin-top: 59px;
     height: 239px;
     display: block;
     clear: both;
@@ -105,12 +104,49 @@ a:hover {
     clear: both;
 }
 
+#searchinput {
+    max-width: 584px;
+    margin-left: 350px;
+    height: 44px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
 .search {
     display: inline-block;
     vertical-align: middle;
 }
 
 #usersearch {
-    width: 320px;
-    height: 25px;
+    width: 520px;
+    border: none;
+    float: left;
+}
+
+#usersearch:selection {
+    border: none;
+}
+
+#voicesearch {
+    padding-top: 10px;
+    width: 18px;
+    height: 23px;
+}
+
+center input {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: #222;
+    text-align: center;
+    padding: 0 16px;
+    min-width: 54px;
+    margin: 11px 4px;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    cursor: default;
+    border-radius: 2px;
+    height: 36px;
+    line-height: 27px;
+    box-sizing: border-box;
 }

@@ -1,84 +1,91 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Google Test</title>
-        <link rel="stylesheet" type="text/css" href="style.css" />
-    </head>
 
-    <body>
-        <div class="page">
-            <!--gmail, images, apps, notifications, google+ buttons-->
-            <div class="container" id="top">
-                <div class="container" id="topgrid">
-                    <div class="labelcontainer">
-                        <div class="toplabel" id="gmail">
-                            <a href="https://www.google.com">
+<head>
+    <title>Google Test</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <div class="page">
+        <!--gmail, images, apps, notifications, google+ buttons-->
+        <div class="container" id="top">
+            <div class="container" id="topgrid">
+                <div class="labelcontainer">
+                    <div class="toplabel" id="gmail">
+                        <a href="https://www.google.com">
                                 Gmail
                             </a>
-                        </div>
+                    </div>
 
-                        <div class="toplabel" id="images">
-                            <a href="https://www.images.google.com">
+                    <div class="toplabel" id="images">
+                        <a href="https://www.images.google.com">
                                 Images
                             </a>
-                        </div>
-                    </div>
-
-                    <div class="buttoncontainer">
-                        <div class="topbutton" id="grid">
-                            <a href="https://www.youtube.com">
-                                <img src="images/ic_grid_24px.svg" />
-                            </a>
-                        </div>
-
-                        <div class="topbutton" id="notifications">
-                            <a href="https://www.youtube.com">
-                                <img src="images/ic_notifications_24px.svg" />
-                            </a>
-                        </div>
-
-                        <div class="topbutton" id="google">
-                            <a href="https://www.9gag.com" id="accountlink">
-
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!--logo, country logo, search bar, voice search, search-with-google
-            and i-feel-lucky buttons and language-->
-            <div class="container" id="content">
-                <div class="container" id="logo">
-                    <img src="images/logo.svg.png" id="googlelogo" />
-                    <div class="sublogo">
-                        Venezuela
                     </div>
                 </div>
 
-                <div class="container searchfields">
-                    <div class="container" id="searchinput">
-                        <div class="container search">
-                            <form action="" method="get" id="searchbar">
-                                <input id="usersearch" type="text" />
-                            </form>
-                        </div>
+                <div class="buttoncontainer">
+                    <div class="topbutton" id="grid">
+                        <a href="https://www.youtube.com">
+                            <img src="images/ic_grid_24px.svg" />
+                        </a>
+                    </div>
 
-                        <div class="container search">
-                            <a href="">
-                                <img src="images/ic_notifications_24px.svg"
-                                    id="voicesearch"/>
-                            </a>
-                        </div>
+                    <div class="topbutton" id="notifications">
+                        <a href="https://www.youtube.com">
+                            <img src="images/ic_notifications_24px.svg" />
+                        </a>
+                    </div>
+
+                    <div class="topbutton" id="google">
+                        <a href="https://www.9gag.com" id="accountlink">
+
+                        </a>
                     </div>
                 </div>
-
-            </div>
-
-            <!--publicity, business, about, privacy, conditions, preferences-->
-            <div class="container" id="footer">
-
             </div>
         </div>
-    </body>
+
+        <!--logo, country logo, search bar, voice search, search-with-google
+            and i-feel-lucky buttons and language-->
+        <div class="container" id="content">
+            <div class="container" id="logo">
+                <img src="images/logo.svg.png" id="googlelogo" />
+                <div class="sublogo">
+                    Venezuela
+                </div>
+            </div>
+
+            <div class="container searchfields">
+                <div class="container" id="searchinput">
+                    <div class="container search">
+                        <form action="" method="get" id="searchbar">
+                            <input id="usersearch" type="text" />
+                        </form>
+                    </div>
+
+                    <div class="container search">
+                        <a href="">
+                            <img src="images/ic_microphone_logo.png" id="voicesearch" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container" id="searchbuttons">
+                <center>
+                    <input value="Search with Google" name="btnS" type="submit">
+                    <input value="I feel lucky" name="btnL" type="submit">
+                </center>
+            </div>
+        </div>
+
+        <!--publicity, business, about, privacy, conditions, preferences-->
+        <footer class="container" id="footer">
+
+        </footer>
+    </div>
+</body>
+
 </html>
