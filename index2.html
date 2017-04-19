@@ -2,23 +2,28 @@
 <html>
     <head>
         <title>Google search result</title>
+        <link rel="stylesheet" type="text/css" href="style2.css">
     </head>
 
     <body>
         <header>
-            <div class="container header" id="logo-search-options">
-                <div class="searchform">
-                    <a href="https://www.google.com" id="mini-logo">
-                        <img src="images/mini-logo.png" />
-                    </a>
+            <div class="container top" id="logo-search-options">
+                <div class="section">
+                    <!--minilogo -->
+                    <div class="container section1" id="mini-logo">
+                        <a href="https://www.google.com" >
+                            <img src="images/mini-logo.png" id="mini-logo-image" />
+                        </a>
+                    </div>
 
-                    <div class="container search">
+                    <!-- search bar and voice search buttons-->
+                    <div class="container section1" id="searchbarframe">
                         <form action="" method="get" id="searchbar">
                             <input id="usersearch" type="text" />
                         </form>
                     </div>
 
-                    <div class="buttoncontainer">
+                    <div class="section1">
                         <div class="topbutton" id="grid">
                             <a href="https://www.youtube.com">
                                 <img src="images/ic_grid_24px.svg" />
@@ -32,11 +37,15 @@
                         </div>
 
                         <div class="topbutton" id="google">
-                            <a href="https://www.9gag.com" id="accountlink">
-
-                            </a>
+                            <a href="https://www.9gag.com" id="accountlink"></a>
                         </div>
                     </div>
+
+                </div>
+
+                <div class="container resulttypes">
+
+                </div>
             </div>
         </header>
 
